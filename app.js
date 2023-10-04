@@ -42,7 +42,6 @@ function addInformation(Btitle, Bname, Byear) {
   trtag.appendChild(thtag2);
   trtag.appendChild(thtag3);
   booklists.append(trtag);
-  //thtag(Btitle, Bname, Byear);
 
   // local storage
 
@@ -84,14 +83,6 @@ for(let i = 0; i < arraylength ; i++){
   trtag.appendChild(thtag3);
   mainappendedtag.append(trtag);
 }
-// let ar = [];
-// let info_object = {
-//   title: 'پدر مادر ما متهمیم',
-//   name: 'علی شریعی',
-//   year: 1382,
-// };
-// ar.push(info_object);
 
-// localStorage.setItem('key',JSON.stringify(ar));
 
 
